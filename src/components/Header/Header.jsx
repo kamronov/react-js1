@@ -11,35 +11,35 @@ function Header() {
             <nav>
                 <ul className='header__list'>
                     <li>
-                        <a href="#">
+                        <a href="#top">
                             Home
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#top">
                             About
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#top">
                             Blog
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#top">
                             Contact
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#top">
                             Courses
                         </a>
                     </li>
                 </ul>
 
                 <div className="search_side">
-                    <a href="#"><img src={search} alt="" />Search</a>
-                    <a href="#"><img src={shopping_cart} alt="" />Cart</a>
+                    <a href="#top"><img src={search} alt="" />Search</a>
+                    <a href="#top"><img src={shopping_cart} alt="" />Cart</a>
                     <button className='header_signUp'>Sign Up</button>
                 </div>
             </nav>
