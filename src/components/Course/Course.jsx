@@ -2,7 +2,7 @@ import React from 'react';
 import './Course.css';
 import banner1 from '../../assets/img/course_banner1.png';
 import banner2 from '../../assets/img/course_banner2.png';
-// import right from '../../assets/img/icon-chevron_right.svg';
+import right from '../../assets/img/icon-chevron_right.svg';
 
 function Course() {
     return (
@@ -20,7 +20,7 @@ function Course() {
                             </div>
                             <div className="course__link">
                                 <button className='course__btn1'>Get started</button>
-                                {/* <a href="#" className='couerse__link1'>Learn more <img src={right} alt="" /></a> */}
+                                <a href="#top" className='couerse__link1'>Learn more <img src={right} alt="" /></a>
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ function Course() {
                             </div>
                             <div className="course__link">
                                 <button className='course__btn1'>Get started</button>
-                                {/* <a href="#" className='couerse__link1'>Learn more <img src={right} alt="" /></a> */}
+                                <a href="#top" className='couerse__link1'>Learn more <img src={right} alt="" /></a>
                             </div>
                         </div>
                     </div>
