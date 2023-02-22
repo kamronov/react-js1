@@ -1,0 +1,97 @@
+.trending {
+    padding-bottom: 128px;
+}
+.trending__title {
+    text-align: center;
+}
+.trending__label {
+    padding: 5px 8px;
+    color: #1F2937;
+    background: #FCD8CA;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.trending__title h2 {
+    margin-top: 15px;
+    margin-bottom: 28px;
+    color: #1F2937;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 58px;
+}
+.trending__text {
+    margin: 0 auto;
+    width: 730px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #4B5563;
+}
+.trending__inner {
+    margin-top: 63px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 389px;
+    height: 500px;
+    background: #00353B;
+    border-radius: 16px;
+}
+.trending__card:nth-child(1){
+    background-image: url('../../assets/img/bg-card1.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.trending__card:nth-child(2){
+    background-image: url('../../assets/img/bg-card2.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.trending__card:nth-child(3){
+    background-image: url('../../assets/img/bg-card3.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.trending__block {
+    margin-top: 34px;
+    margin-left: 24px;
+}
+.trending__beginner {
+    display: inline-block;
+    color: #1F2937;
+    font-size: 14px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-bottom: 16px;
+}
+.trending__card--title {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 15px;
+}
+.trending__card--money {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.trending__btn {
+    cursor: pointer;
+    margin-left: 24px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+    background: #22A45A;
+border: 1px solid #22A45A;
+border-radius: 8px;
+padding: 9px 21px;
+}

@@ -1,0 +1,78 @@
+.comment {
+    background-color: #00353B;
+}
+.comment__inner {
+    transform: translateY(-50%);
+    background-color: #FCD8CA;
+    padding: 85px 0;
+    border-radius: 24px;
+}
+.comment__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comment__label {
+    background-color: #fff;
+    padding: 4px 8px;
+    color: #1F2937;
+    font-size: 14px;
+}
+.comment__title h2 {
+    margin-top: 11px;
+    font-size: 48px;
+line-height: 57px;
+text-align: center;
+color: #1F2937;
+}
+
+.comment__title p {
+    margin-top: 29px;
+    width: 730px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+color: #4B5563;
+}
+
+.comment__cards {
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+.commnet__blank {
+    padding: 33px 33px 33px 32px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+.comment__star {
+    display: flex;
+}
+.comment__card--text {
+    margin-top: 33px;
+    width: 331px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+color: #1F2937;
+}
+
+.commnet__ava {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.ava__text {
+    margin-left: 16px;
+}
+.ava__name{
+    color: #111827;
+    font-size: 16px;
+line-height: 24px;
+}
+.ava__proff {
+    font-size: 16px;
+line-height: 24px;
+color: #6B7280;
+}
