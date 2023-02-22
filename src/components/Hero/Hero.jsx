@@ -19,7 +19,7 @@ function Hero() {
                         </p>
                         <div className="hero__link">
                             <button className='hero__btn'>Explore Courses</button>
-                            <a href="#" className='hero__vieo--link'>Watch Video <img src={play} alt="" /></a>
+                            <a href="#top" className='hero__vieo--link'>Watch Video <img src={play} alt="" /></a>
                         </div>
                         <div className="hero__teachStar">
                             <img className='hero_teach_img' src={heroTeach} alt="" />
