@@ -1,5 +1,6 @@
 .comment {
     background-color: #00353B;
+    height: 498px;
 }
 .comment__inner {
     transform: translateY(-50%);

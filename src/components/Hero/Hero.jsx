@@ -24,14 +24,14 @@ function Hero() {
                         <div className="hero__teachStar">
                             <img className='hero_teach_img' src={heroTeach} alt="" />
                             <div className="rank">
-                            <ul className='hero__star'>
-                                <li><img src={star} alt="" /></li>
-                                <li><img src={star} alt="" /></li>
-                                <li><img src={star} alt="" /></li>
-                                <li><img src={star} alt="" /></li>
-                                <li><img src={star} alt="" /></li>
-                            </ul>
-                            <div className="star__title">From 3k+ reviews</div>
+                                <ul className='hero__star'>
+                                    <li><img src={star} alt="" /></li>
+                                    <li><img src={star} alt="" /></li>
+                                    <li><img src={star} alt="" /></li>
+                                    <li><img src={star} alt="" /></li>
+                                    <li><img src={star} alt="" /></li>
+                                </ul>
+                                <div className="star__title">From 3k+ reviews</div>
                             </div>
                         </div>
                     </div>
@@ -39,16 +39,15 @@ function Hero() {
                         <img src={hero_ban} alt="" />
                     </div>
                 </div>
-                
                 <div className="hero__subtitle">
-                Trusted by the world's best companies
+                    Trusted by the world's best companies
                 </div>
                 <div className="container noCode">
                     <h2 className="noCode__title">
                         No-code Education Platform
                     </h2>
                     <p className="noCode__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
                     </p>
                     <button className='noCode__btn'>About us</button>
                 </div>
