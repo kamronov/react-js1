@@ -7,10 +7,10 @@ import benIcon1 from '../../assets/img/benefit-icon1.png'
 import benUser from '../../assets/img/join-icon1.svg'
 
 
-function Benefit() {
+function Benefit({change}) {
   return (
     <div>
-        <section className='benefit'>
+        <section className={change?'benefit dark-mode4' : ' benefit light-mode4'}>
             <div className="benefit__title">
                 <label htmlFor="" className='benefit__label'>Benefits</label>
                 <h2>Grow your knowledge from best teachers in the industry</h2>

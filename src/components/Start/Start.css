@@ -1,9 +1,12 @@
 .start {
+    background-color: #00353B;
     padding-top: 123px;
     padding-bottom: 73px;
-    background-color: #00353B;
 }
-
+.dark-mode{
+    background-color: #1F2937;
+    transition: background-color 0.25s ease-in-out;
+}
 .start__title {
     margin-bottom: 28px;
     font-weight: 400;
@@ -36,7 +39,7 @@
     text-align: center;
     color: #FFFFFF;
     background: #22A45A;
-    border: 1px solid #22A45A;
+    border: none;
     cursor: pointer;
     border-radius: 8px;
 }
@@ -52,5 +55,9 @@
     border: 1px solid #FFFFFF;
     border-radius: 8px;
     text-align: center;
+    color: #1F2937;
+}
+.dark-mode .start__get {
+    background-color: #fff;
     color: #1F2937;
 }

@@ -2,6 +2,7 @@
     padding: 11px;
     background-color: #00353B;
 }
+
 .header__inner {
     display: flex;
     justify-content: flex-end;
@@ -41,7 +42,7 @@ nav {
 .search_side img {
     margin-right: 8px;
 }
-.header_signUp {
+/* .header_signUp {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -52,4 +53,27 @@ nav {
     border-radius: 8px;
     padding: 11px 22px;
     cursor: pointer;
+} */
+.dark-mode{
+    background-color: #1F2937;
+    transition: background-color 0.25s ease-in-out;
+  }
+  .light-mode {
+    transition: background-color 0.30s ease-in-out;
+  }
+.light-mode .header_mode{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(17, 99, 74);
+    border-radius: 50%;
+    border: none;
+    color: #FFFFFF;
+}
+.dark-mode .header_mode{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(39, 61, 55);
+    border-radius: 50%;
+    border: none;
+    color: #FFFFFF;
 }

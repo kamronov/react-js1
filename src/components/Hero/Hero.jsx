@@ -5,10 +5,10 @@ import play from '../../assets/img/icon-play_circle_filled.png'
 import heroTeach from '../../assets/img/hero-teachers.png'
 import star from '../../assets/img/icon-star.svg'
 
-function Hero() {
+function Hero({change}) {
     return (
         <div>
-            <section className='hero'>
+            <section className={change?' dark-mode hero' : ' hero light-mode'}>
                 <div className="container hero__inner">
                     <div className="hero__become">
                         <h2 className="hero__title">

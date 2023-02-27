@@ -4,10 +4,10 @@ import facebook from '../../assets/img/facebook.svg'
 import twitter from '../../assets/img/twitter.svg'
 import instagram from '../../assets/img/instagram.svg'
 
-function Footer() {
+function Footer({change}) {
     return (
         <div>
-            <section className='footer'>
+            <section className={change?'footer dark-mode' : 'footer light-mode'}>
                 <ul className="container footer__list">
                     <li className="footer__item">
                         <label htmlFor="inp">Join our newsletter to stay up to date on features and releases.</label>
@@ -54,7 +54,7 @@ function Footer() {
                     </li>
                 </ul>
             </section>
-            <div className="down__foot">
+            <div className={change?'down__foot dark-mode' : 'down__foot light-mode'}>
                 <div className="container footer__inner">
                     <p>© Learnico by Minimal Square. Powered by Webflow</p>
                     <div className="footer__social">

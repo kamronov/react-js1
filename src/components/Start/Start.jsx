@@ -1,9 +1,9 @@
 import React from 'react'
 import './Start.css'
-function Start() {
+function Start({change}) {
   return (
     <div>
-        <section className='start'>
+        <section className={change?'start dark-mode' : 'start light-mode'}>
             <div className="container">
                 <div className="start__title">Start learning today</div>
                 <p className='start__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>

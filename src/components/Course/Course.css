@@ -45,11 +45,28 @@
 }
 .couerse__link1 img{
     margin-left: 8px;
-    /* width: 10px; */
 }
 .course__easily {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
+}
+.dark-mode1{
+    background-color: #2d3d53;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.light-mode1 .course__text, .couerse__link1{
+    color: #1F2937;
+}
+.light-mode1 .couerse__link1{
+    color: #111827;
+}
+.dark-mode1 .course__title1, .course__text, .couerse__link1{
+    color: #FFFFFF;
+}
+.dark-mode1 .course__btn1{
+    background-color: #fff;
+    color: #111827;
 }

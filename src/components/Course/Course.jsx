@@ -4,10 +4,10 @@ import banner1 from '../../assets/img/course_banner1.png';
 import banner2 from '../../assets/img/course_banner2.png';
 import right from '../../assets/img/icon-chevron_right.svg';
 
-function Course() {
+function Course({change}) {
     return (
         <div>
-            <section className='course'>
+            <section className={change?'course dark-mode1 ' : ' course light-mode1'}>
                 <div className="container">
                     <div className="course__premium">
                         <img className='course__banner1' src={banner1} alt="" />

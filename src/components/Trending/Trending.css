@@ -91,7 +91,23 @@
     margin-bottom: 32px;
     color: #FFFFFF;
     background: #22A45A;
-border: 1px solid #22A45A;
+    border: none;
 border-radius: 8px;
 padding: 9px 21px;
+}
+.light-mode2  .trending__text {
+      color: #4B5563;
+}
+.dark-mode2 {
+    background-color: #2d3d53;
+    transition: background-color 0.25s ease-in-out;
+}
+.dark-mode2 .trending__title h2 , .trending__text {
+    color: #FFFFFF ;
+}
+.dark-mode2 .trending__card {
+    background-color: #1F2937;
+}
+.dark-mode2 .trending__btn{
+    background-color: #476691;
 }

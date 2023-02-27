@@ -133,3 +133,7 @@
     cursor: pointer;
     color: #FFFFFF;
 }
+.dark-mode{
+    background-color: #1F2937;
+    transition: background-color 0.25s ease-in-out;
+}

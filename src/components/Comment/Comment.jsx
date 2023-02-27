@@ -2,10 +2,10 @@ import React from 'react';
 import './Comment.css'
 import blackStar from '../../assets/img/black-star.svg'
 import commnentAva from '../../assets/img/comment-ava.png'
-function Comment() {
+function Comment({change}) {
   return (
     <div>
-      <section className='comment'>
+      <section className={change?'comment dark-mode' : 'comment light-mode'}>
         <div className="container comment__inner">
           <div className="comment__title">
             <label htmlFor="" className='comment__label'>Testimonials</label>

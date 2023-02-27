@@ -4,10 +4,10 @@ import card1 from '../../assets/img/blog-card1.png'
 import card2 from '../../assets/img/blog-card2.png'
 import right from '../../assets/img/icon-chevron_right.svg';
 import card3 from '../../assets/img/blog-card3.png'
-function Blog() {
+function Blog({change}) {
   return (
     <div>
-        <section className='blog'>
+        <section className={change?'blog dark-mode' : ' blog light-mode'}>
             <div className="container blog__head">
                 <div className="blog__title">
                 <label htmlFor="" className='blog__label'>Blog</label>

@@ -1,9 +1,9 @@
 import React from 'react'
 import './Trending.css'
-function Trending() {
+function Trending({change}) {
   return (
     <div>
-        <section className='trending'>
+        <section className={change?' trending dark-mode2': 'trending light-mode2'}>
             <div className="trending__title">
                 <label htmlFor="" className='trending__label'>Trending</label>
                 <h2>The most popular courses</h2>

@@ -4,10 +4,10 @@ import joinSt from '../../assets/img/join-students.png'
 import joinIcon1 from '../../assets/img/join-icon1.svg'
 import joinIcon2 from '../../assets/img/join-icon2.svg'
 import joinIcon3 from '../../assets/img/join-icon3.svg'
-function Join() {
+function Join({change}) {
   return (
     <div>
-        <section className='join'>
+        <section className={change?' dark-mode3 join' : ' join light-mode3'}>
             <div className="container join__inner">
                 <div className="join__info">
                     <label htmlFor="" className='join__label'>Join us</label>
